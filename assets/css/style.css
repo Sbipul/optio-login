@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Stick+No+Bills:wght@500;600;700;800&display=swap');
+ul{
+  padding: 0;
+}
+html,body{
+  font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Stick No Bills', sans-serif; */
+}
+h2{
+  color: #2a454e;
+}
+ul li a {
+  text-decoration: none;
+  color: #25819f;
+}
+.position-image1 {
+  position: absolute;
+  height: 534px;
+  width: 400px;
+  bottom: -82%;
+  right: 0%;
+  transition: 1s;
+}
+.position-image3 {
+  position: absolute;
+  height: 100%;
+  width: 19%;
+  bottom: 0;
+  left: 14%;
+  animation: up-down 5s linear infinite;
+}
+main {
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+.logo-container h2 {
+  color: #2a454e;
+  text-transform: uppercase;
+  font-size: 2.9rem;
+  letter-spacing: -4px;
+  font-family: initial;
+}
+.dashboard-container {
+  height: 40vh;
+  overflow: hidden;
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #00dfc0;
+  padding: 5rem;
+  text-align: center;
+}
+.dashboard h3 {
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: 'Stick No Bills', sans-serif;
+}
+.list-none{
+  list-style: none;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo i {
+  font-size: 4rem;
+  color: #00dfc0;
+}
+.test {
+  background: linear-gradient(to bottom, #00dfc0, white, white, white, white, white);
+}
+
+@keyframes up-down {
+  0%{
+    bottom: 0;
+  }
+  50%{
+    bottom: 5%;
+  }
+  100%{
+    bottom: 0;
+  }
+}
+
+/* custom bootstrap  */
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-light .navbar-toggler {
+  border-color: rgb(0 0 0 / 0%) !important;
+}
